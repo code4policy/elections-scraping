@@ -1,6 +1,6 @@
-# vibe-scraping
-Let's use an LLM to create a scraper for the Massachusetts state electios website
-`
+# Elections scraping 
+Let's use an LLM to create a scraper for the Massachusetts state electios website.
+
 ## Setup
 
 ### Set up your project environment

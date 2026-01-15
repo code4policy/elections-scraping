@@ -22,9 +22,10 @@ Let's use an LLM to create a scraper for the Massachusetts state electios websit
 
 ### Task instructions
 1. Visit the website: https://electionstats.state.ma.us/elections/search/year_from:2024/year_to:2025
-2. Inspect the page: Right-click > Inspect > find the table with election data
-3. Check `robots.txt`: Visit https://electionstats.state.ma.us/robots.txt
-4. Modify the IMDB scraper example to scrape the elections website. It should collect election data and save to elections.json. Feel free to vibe code this. 
-5. Adjust your scraper to only grab 2025 elections. Hint: try manually adjusting the the year filters on the elections website. Does the URL change? 
-6. Extract additional data fields!
+2. Inspect the page to identify the table where election data is stored:
+    1. Right-click anywhere on the page > Click "Inspect" > find the table with election data
+4. Check `robots.txt`: Visit https://electionstats.state.ma.us/robots.txt
+5. Modify the IMDB scraper example to scrape the elections website. It should collect election data and save to elections.json. Feel free to vibe code this. 
+6. Adjust your scraper to only grab 2025 elections. Hint: try manually adjusting the the year filters on the elections website. Does the URL change? 
+7. Extract additional data fields!
 

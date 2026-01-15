@@ -13,7 +13,7 @@ Let's use an LLM to create a scraper for the Massachusetts state electios websit
         ```
     3. Activate the new virtual environment: 
         ```sh 
-        source ./scrap_env/bin/activate 
+        source ./scrape_env/bin/activate 
         ```
     4. Install the `lxml`, `requests`, and `BeautifulSoup` python libraries:
         ```sh

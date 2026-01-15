@@ -21,7 +21,7 @@ Let's use an LLM to create a scraper for the Massachusetts state electios websit
         ```
 
 ### Task instructions
-1. Visit the website: https://electionstats.state.ma.us/elections/search/year_from:2024/year_to:2025
+1. Visit the website: https://electionstats.state.ma.us/elections/search/year_from:2025/year_to:2025
 2. Check `robots.txt` file (visit https://electionstats.state.ma.us/robots.txt). What preferences does this site express about whether they want to be scraped or not?
 3. Inspect the page to identify the table where election data is stored:
     a. Right-click anywhere on the page > Click "Inspect" > find the table with election data
@@ -34,6 +34,6 @@ Let's use an LLM to create a scraper for the Massachusetts state electios websit
     c. Task 4: extract the name of the party and print it out
 
 5. Ask the LLM to help you write the code to save the data to a CSV file.
-6. Adjust your scraper to only grab 2025 elections. Hint: try manually adjusting the the year filters on the elections website. Does the URL change? 
+6. Adjust your scraper to only grab 2024 elections. Hint: try manually adjusting the the year filters on the elections website. Does the URL change? 
 7. Bonus: Extract additional data fields!
 
